@@ -1,12 +1,13 @@
 ====================================
 -- Download das ferramentas
-https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
-https://www.eclipse.org/downloads/
-http://git-scm.com/
-https://code.visualstudio.com/
+https://www.oracle.com/java/technologies/javase-jdk15-downloads.html (Java, na versão mais atualizada)
+https://www.eclipse.org/downloads/ (Eclipse, na versão mais atualizada)
+http://git-scm.com/ (Ferramentas do Git para habilitar a execução das linhas de comando)
+https://code.visualstudio.com/ (IDE de desenvolvimento Web)
+https://getbootstrap.com/ (Link para o BootsTrap, ferramenta de formatação css)
 
 
-passo a passo para novo projeto em Java:
+Passo a passo para novo projeto em Java:
 
 Acessar https://start.spring.io/ e criar uma nova configuração de Spring Boot. 
 configurações usadas no curso:
@@ -52,3 +53,11 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
 #5 Mostrar no console o SQL Gerado
 spring.jpa.show_sql = true
 
+---------------------------------------------------------------------------------------------------------
+Criar três pacotes:
+1- Model 
+	| Onde ficarão os De x Para das entidades do nosso banco de dados, com as classes que serão usadas no projeto. Nesse exemplo, Usuário, equipamento, alarme e evento)
+2- Controller
+	| Onde fica o arquivo com os metodos de cada entidade, por exemplo: Para usuários, criamos um método que retorna todos os usuários.
+3- DAO (Data Access Object)
+	| Onde ficarão os arquivos de "Interface" que farão  a "ponte" para gerar os SQLs de Insert, Select, Updates, etc

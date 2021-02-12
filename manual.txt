@@ -6,6 +6,9 @@ http://git-scm.com/ (Ferramentas do Git para habilitar a execução das linhas d
 https://code.visualstudio.com/ (IDE de desenvolvimento Web)
 https://getbootstrap.com/ (Link para o BootsTrap, ferramenta de formatação css)
 
+.. Não utilizado no curso ..
+https://jwt.io/ (Tokenização para autenticação)
+
 
 Passo a passo para novo projeto em Java:
 
